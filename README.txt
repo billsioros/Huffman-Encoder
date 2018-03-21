@@ -1,4 +1,4 @@
-# A C++ Huffman Encoder
+### A C++ Huffman Encoder
 
 (1) mkdir bin
 (2) make
