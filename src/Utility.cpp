@@ -33,7 +33,7 @@ static void _loading(const unsigned int mls, const unsigned int bar_size)
 	}
 }
 
-static const bool legalWrite(const char* const filename)
+static bool legalWrite(const char* const filename)
 {
 	std::ifstream ifs(filename);
 	if (!ifs.fail()) {

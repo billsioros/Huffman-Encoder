@@ -36,7 +36,7 @@ const std::string Tree::Node::search(const unsigned char ascii) const
 	return "";
 }
 
-const Tree::Node* const Tree::Huffman(const float* const f)
+const Tree::Node* Tree::Huffman(const float* const f)
 {
 	priority_queue<Node*, vector<Node*>, Node::compare> Q;
 	unsigned int n = 0;

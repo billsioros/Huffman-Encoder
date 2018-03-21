@@ -12,7 +12,7 @@ private:
 	{
 		struct compare
 		{
-			const bool operator()(Node* A, Node* B)
+			bool operator()(Node* A, Node* B)
 			{
 				return A->f > B->f;
 			}
@@ -31,7 +31,7 @@ private:
 
 	const Node* root;
 
-	static const Node* const Huffman(const float* const);
+	static const Node* Huffman(const float* const);
 public:
 	Tree(const float* const);
 	~Tree();
