@@ -12,6 +12,6 @@ COMMANDS
 * -d  |  -decompress  : DECOMPRESS DATA BY MEANS OF HUFFMAN DECODING"
 
 SYNTAX
-<command> "filename"
+command "filename"
 
 ~ billsioros ~
